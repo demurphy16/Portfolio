@@ -1,0 +1,27 @@
+
+
+.nav-bar {
+  border-bottom: 5px solid ivory;
+  width: 100%;
+  height: 103px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+
+.left-nav {
+  margin-left: 50px;
+}
+.right-nav {
+  margin-right: 50px;
+  width: 355px;
+}
