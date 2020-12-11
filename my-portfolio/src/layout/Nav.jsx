@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 function Nav() {
@@ -8,9 +9,9 @@ function Nav() {
         <a className="nav-logo">Logo</a>
       </div>
       <div className="right-nav nav-content">
-          <a>About Me</a>
-          <a>Projects</a>
-          <a>Contact</a>
+          <Link to='/AboutMe'>About Me</Link>
+          <Link to='/AboutMe'>Projects</Link>
+          <Link to='/AboutMe'>Contact</Link>
       </div>
 
     </div>

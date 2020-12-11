@@ -4,8 +4,11 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <div>
-
+      <div className="footer-container">
+        <p>978-877-1945</p>
+        <a>LinkedIn</a>
+        <a>GitHub</a>
+        <p>demuprhy16@brandeis.edu</p>
       </div>
     </footer>
   )

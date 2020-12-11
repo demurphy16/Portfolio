@@ -1,0 +1,36 @@
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-text-container {
+  margin-left: 8vw;
+  margin-top: 7vh;
+  color: white;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 75px;
+}
+.home-text {
+  font-size: 32px;
+}
+
+.welcome-img {
+  height: 420px;
+  width: 370px;
+  border-radius: 100%;
+  border: 3px solid ivory;
+  margin-right: 15vw;
+  margin-top: 10vh;
+}
+
+.most-recent{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.most-recent-title {
+  color: green;
+}
