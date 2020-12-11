@@ -1,6 +1,6 @@
 .home-container {
-  height: 100vh;
-  background-color: rgb(3, 3, 74);
+  min-height: 100vh;
+  background-color: rgb(0, 0, 46);
 }
 
 .body {
@@ -35,8 +35,30 @@
   text-align: center;
   margin-top: 100px;
   background-color: white;
+  min-height: 50vh;
 }
 
 .most-recent-title {
-  color: green;
+  padding-top: 7vh;
+  color: rgb(3, 7, 24);
+  font-size: 72px;
+}
+
+.recent-project-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+.recent-img-container {
+  border: 1px solid blue;
+}
+.recent-descirption-container {
+  border: 1px solid black;
+  width: 25vw;
+  height: 25vh;
+  line-height: 4vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
 }

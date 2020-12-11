@@ -2,7 +2,8 @@ import './App.css';
 import Layout from './layout/Layout';
 import { Route, Switch } from 'react-router-dom';
 import Home from './screens/Home';
-import Footer from './layout/Footer';
+import AboutMe from './screens/AboutMe'
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
 
         </Route>
         <Route path='/AboutMe'>
-
+          <AboutMe />
         </Route>
         <Route path='/'>
           <Home />

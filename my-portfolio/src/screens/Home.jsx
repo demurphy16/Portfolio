@@ -19,8 +19,20 @@ function Home() {
         </div>
       </div>
       <div className="most-recent">
-          <h2 className="most-recent-title">Most Recent Project</h2>
+        <h2 className="most-recent-title">Most Recent Project</h2>
+        <div className="recent-project-container">
+          <div className="recent-img-container">
+            <img />
+          </div>
+          <div className="recent-descirption-container">
+            <p>Cooked is an unfinished application that is designed to help amateur
+             chefs create, update, delete and share their recipes. Future iterations 
+             will likely include the ability save recipes and easily convert ingredient
+             lists in shopping lists.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
   )
 }
