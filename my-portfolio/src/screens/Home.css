@@ -1,3 +1,8 @@
+.home-container {
+  height: 100vh;
+  background-color: rgb(3, 3, 74);
+}
+
 .body {
   display: flex;
   justify-content: space-between;
@@ -29,6 +34,7 @@
 .most-recent{
   text-align: center;
   margin-top: 100px;
+  background-color: white;
 }
 
 .most-recent-title {
