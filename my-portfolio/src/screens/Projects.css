@@ -1,0 +1,15 @@
+.project-page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container {
+  border: 1px solid red;
+  width: 75vw;
+  min-height: 20vh;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}

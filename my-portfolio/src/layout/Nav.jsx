@@ -6,12 +6,12 @@ function Nav() {
   return (
     <div className="nav-bar">
       <div className="left-nav nav-content">
-      <Link to='/'>Logo</Link>
+      <Link to='/'>Home</Link>
       </div>
       <div className="right-nav nav-content">
           <Link to='/AboutMe'>About Me</Link>
           <Link to='/projects'>Projects</Link>
-          <Link to='/AboutMe'>Contact</Link>
+          {/* <Link to='/contact'>Contact and Info</Link> */}
       </div>
 
     </div>
