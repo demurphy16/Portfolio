@@ -8,7 +8,7 @@
 
 .about-page-container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: space-around;
   background-color: rgba(255, 255, 255, 0.571);
   width: 80vw;
@@ -60,4 +60,25 @@
   width: 12%;
   height: 12%;
   margin: 30px;
+}
+@media screen and (max-width: 475px) {
+
+  .about-img-container {
+    display: none;
+  }
+  .about-text {
+    font-size: 12px;
+    line-height: 3vh;
+    margin-top: 3vh;
+  }
+  .about-ultra-container {
+    background-color: rgb(3, 3, 31);
+    background-image: none;
+  }
+  .about-page-container {
+    min-height: 100vh;
+  }
+  .skills-title {
+    font-size: 40px;
+  }
 }

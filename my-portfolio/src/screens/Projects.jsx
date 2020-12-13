@@ -8,7 +8,7 @@ function Projects() {
 
   return (
     <div className="project-page-container">
-      <h1>My Projects</h1>
+      <h1 className="projects-title">My Projects</h1>
       <div className="project-container cooked">
         <img className="project-img" src={cooked}/>
         <div className="project-description-container">

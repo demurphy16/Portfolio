@@ -16,7 +16,7 @@
 }
 
 .project-img {
-  min-height: 50vh;
+  height: 50vh;
   width: 40vw;
 }
 .project-description-container {
@@ -45,4 +45,30 @@
 
 .beer-storage {
   margin-bottom: 10vh;
+}
+
+@media screen and (max-width: 475px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+    width: 90vw;
+    box-shadow: none;
+  }
+  .projects-title {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+  .project-img {
+    height: 150px;
+    width: 200px;
+    box-shadow: 2px 2px 4px rgb(38, 38, 38);
+    margin-bottom: 25px;
+  }
+  .project-description {
+    font-size: 12px;
+    width: 250px;
+  }
+  
 }
