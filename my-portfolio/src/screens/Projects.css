@@ -39,6 +39,10 @@
   margin: 0 auto;
   margin-top: 15px;
 }
+.project-anchor {
+  color: black;
+  text-decoration: none;
+}
 .cooked-button {
   margin-bottom: 15px;
 }

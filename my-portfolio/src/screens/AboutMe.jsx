@@ -9,7 +9,7 @@ function AboutMe() {
     <div className="about-ultra-container">
       <div className="about-page-container">
         <div className="about-img-container">
-          <img className="about-img"src={Self} />
+          <img alt="David"className="about-img"src={Self} />
           <p className="about-name">David Murphy</p>
         </div>
         <div className="about-text-container">
