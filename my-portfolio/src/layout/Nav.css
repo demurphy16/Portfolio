@@ -23,3 +23,16 @@
   margin-right: 7vw;
   width: 320px;
 }
+
+@media screen and (max-width: 475px) {
+  .nav-bar {
+    width: 100vw;
+    height: 60px;
+  }
+  .nav-content {
+    font-size: 12px;
+  }
+  .right-nav {
+    margin-left: 7vw;
+  }
+}

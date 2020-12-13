@@ -72,3 +72,52 @@
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 475px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    font-size: 25px;
+  }
+
+  .home-text {
+    font-size: 12px;
+  }
+
+  .welcome-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .welcome-img {
+    display: none;
+  }
+
+  .welcome-img-container > p {
+    font-size: 12px;
+    margin-left: 25vw;
+  }
+
+  .most-recent-title {
+    font-size: 25px;
+  }
+  .recent-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+  .recent-img {
+    width: 150px;
+    height: 125px;
+    margin-bottom: 5vh;
+  }
+  .recent-descirption-container > p {
+    font-size: 12px;
+    line-height: 2vh;
+  }
+
+}
