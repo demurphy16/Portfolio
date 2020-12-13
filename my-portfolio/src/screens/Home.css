@@ -21,7 +21,17 @@
 .home-text {
   font-size: 32px;
 }
-
+.welcome-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-img-container > p {
+  color: ivory;
+  margin-right: 15vw;
+  margin-top: 5vh;
+  font-size: 20px;
+}
 .welcome-img {
   height: 420px;
   width: 370px;
@@ -45,18 +55,18 @@
 }
 
 .recent-project-container {
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
   margin-bottom: 10vh;
 }
-.recent-img-container {
-  border: 1px solid blue;
+.recent-img {
+  height: 50vh;
+  box-shadow: 2px 2px 4px rgb(38, 38, 38);
 }
 .recent-descirption-container {
-  border: 1px solid black;
+  box-shadow: 2px 2px 4px rgb(38, 38, 38);
   width: 25vw;
-  height: 25vh;
+  height: 35vh;
   line-height: 4vh;
   padding: 30px;
   display: flex;

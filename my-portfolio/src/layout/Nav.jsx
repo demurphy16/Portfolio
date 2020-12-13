@@ -11,7 +11,7 @@ function Nav() {
       <div className="right-nav nav-content">
           <Link to='/AboutMe'>About Me</Link>
           <Link to='/projects'>Projects</Link>
-          {/* <Link to='/contact'>Contact and Info</Link> */}
+          <a href="https://www.docdroid.net/SRVGoOT/david-murphy-resume-pdf" target="_blank">Resume</a>
       </div>
 
     </div>
