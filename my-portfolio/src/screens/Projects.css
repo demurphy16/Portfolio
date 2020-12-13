@@ -8,23 +8,41 @@
 .project-container {
   box-shadow: 2px 2px 4px rgb(38, 38, 38);
   width: 75vw;
-  height: 50vh;
+  min-height: 50vh;
   margin-top: 10vh;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5vh;
 }
 
 .project-img {
-  height: 50vh;
+  min-height: 50vh;
   width: 40vw;
-  box-shadow: 2px 2px 4px rgb(38, 38, 38);
 }
 .project-description-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   line-height: 3.5vh;
   margin-right: 3vw;
 }
 .project-description {
   width: 25vw;
+  text-align: center;
+}
+
+.project-button {
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.cooked-button {
+  margin-bottom: 15px;
+}
+
+.beer-storage {
+  margin-bottom: 10vh;
 }
