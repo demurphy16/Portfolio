@@ -89,7 +89,8 @@
   .welcome-text-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .welcome-img {
@@ -98,7 +99,8 @@
 
   .welcome-img-container > p {
     font-size: 12px;
-    margin-left: 25vw;
+    margin: 15px auto;
+    margin-bottom: 0%;
   }
 
   .most-recent-title {
