@@ -16,8 +16,11 @@
 }
 
 .project-img {
-  height: 50vh;
-  width: 40vw;
+  box-shadow: 2px 2px 4px rgb(38, 38, 38);
+  height: 330px;
+  width: 450px;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 .project-description-container {
   display: flex;
