@@ -72,7 +72,17 @@
   display: flex;
   align-items: center;
 }
-
+@media screen and (max-width: 1200px) {
+  .welcome-img {
+    margin-right: 8vw;
+  }
+  .welcome-img-container > p {
+    margin-right: 8vw;
+  }
+  .welcome-email {
+    width: 400px;
+  }
+}
 @media screen and (max-width: 475px) {
   .body {
     display: flex;

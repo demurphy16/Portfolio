@@ -17,7 +17,7 @@ function Home() {
         </div>
         <div className="welcome-img-container">
           <img alt="David" className="welcome-img" src={Self} />
-          <p>demurphy16@brandeis.edu - 978-877-1945</p>
+          <p className="welcome-email">demurphy16@brandeis.edu - 978-877-1945</p>
         </div>
       </div>
       <div className="most-recent">
