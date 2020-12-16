@@ -39,8 +39,7 @@
   width: 85px;
   height: 30px;
   border-radius: 5px;
-  margin: 0 auto;
-  margin-top: 15px;
+  margin: 15px;
 }
 .project-anchor {
   color: black;
@@ -60,6 +59,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 5vh;
+    margin-top: 35px;
     width: 90vw;
     box-shadow: none;
   }
@@ -71,6 +71,7 @@
     height: 150px;
     width: 200px;
     box-shadow: 2px 2px 4px rgb(38, 38, 38);
+    margin: 0%;
     margin-bottom: 25px;
   }
   .project-description {

@@ -17,9 +17,14 @@ function Projects() {
           and then proceed to create a recipe with an image, cooktime, and ingredients. It is an unfinished application that is missing 
           some functionality and styling but works nonetheless. 
         </p>
+          <div className="project-button-container">
         <button className="project-button cooked-button">
           <a className="project-anchor" rel="noreferrer" target="_blank" href="http://superb-memory.surge.sh/">Use Project</a>    
-        </button>
+          </button>
+          <button className="project-button">
+            <a className="project-anchor" rel="noreferrer" target="_blank" href="https://github.com/demurphy16/Cooked">Visit GitHub</a>
+            </button> 
+            </div>  
         </div>
       </div>
       <div className="project-container block">
@@ -29,9 +34,14 @@ function Projects() {
           Block was desgined by a team of UX students and uses Express for the backend with React on the frontend.
           I was responsible for building out the pages and pair programming the backend. 
         </p>
-        <button className="project-button"> 
-          <a className="project-anchor" rel="noreferrer" target="_blank" href="https://the-block-app.netlify.app/">Use Project</a>    
-        </button>
+        <div className="project-button-container">
+          <button className="project-button"> 
+            <a className="project-anchor" rel="noreferrer" target="_blank" href="https://the-block-app.netlify.app/">Use Project</a>    
+          </button>
+          <button className="project-button">
+            <a className="project-anchor" rel="noreferrer" target="_blank" href="https://github.com/demurphy16/Block-App">Visit GitHub</a>
+          </button>  
+        </div>
         </div>
       </div>
       <div className="project-container beer-storage">
@@ -40,9 +50,14 @@ function Projects() {
         <p className="project-description">Beer-Storage was the second application I ever built. It is a fontend application designed to help Users
           find the right beer. Beer-Storage uses React to render its information and was built after just 2 weeks of instruction. 
         </p>
-        <button className="project-button"> 
-          <a className="project-anchor" rel="noreferrer" target="_blank" href="https://happy-bell-026f8e.netlify.app">Use Project</a>    
-        </button>
+        <div className="project-button-container">
+          <button className="project-button"> 
+            <a className="project-anchor" rel="noreferrer" target="_blank" href="https://happy-bell-026f8e.netlify.app">Use Project</a>    
+          </button>
+          <button className="project-button">
+            <a href="https://github.com/demurphy16/beer-storage" rel="noreferrer" target="_blank" className="project-anchor">Visit GitHub</a>
+          </button>
+        </div>
         </div>
       </div>
     </div>
