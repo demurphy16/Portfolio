@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import Self from '../assets/linkedIn.JPG'
 import cooked from '../assets/cooked.gif'
 
@@ -28,10 +30,13 @@ function Home() {
           </div>
           <div className="recent-descirption-container">
             <p>Cooked is an unfinished application that is designed to help amateur
-             chefs create, update, delete and share their recipes. Future iterations 
-             will likely include the ability save other users recipes and easily convert ingredient
-             lists in shopping lists. To see more about Cooked and past projects, visits the projects page.
+            chefs create, update, delete and share their recipes. Future iterations 
+            will likely include the ability save other users recipes and easily convert ingredient
+            lists in shopping lists. To see more about Cooked and past projects, visits the projects page.
             </p>
+            <Link to="/projects">
+              <button className="project-button home-button">See More</button>
+            </Link>
           </div>
         </div>
       </div>

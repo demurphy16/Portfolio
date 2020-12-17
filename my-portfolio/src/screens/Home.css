@@ -65,11 +65,12 @@
 }
 .recent-descirption-container {
   box-shadow: 2px 2px 4px rgb(38, 38, 38);
-  width: 25vw;
-  height: 35vh;
+  width: 45vw;
+  min-height: 35vh;
   line-height: 4vh;
   padding: 30px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 @media screen and (max-width: 1200px) {
@@ -107,15 +108,12 @@
     display: none;
   }
 
- 
-
   .welcome-img-container > p {
     font-size: 12px;
     margin-top: 15px;
     margin-left: 52vw;
     margin-bottom: 0%;
   }
-
   .most-recent-title {
     font-size: 25px;
   }
@@ -132,7 +130,11 @@
   }
   .recent-descirption-container > p {
     font-size: 12px;
-    line-height: 2vh;
+    line-height: 3vh;
+  }
+
+  .home-button {
+    margin: 15px;
   }
 
 }
